@@ -1,0 +1,44 @@
+#dependecies
+/node_modules
+/.pnp
+.pnp.js
+
+#testing
+/coverage
+
+#production
+/dist
+/build
+
+#misc
+.DS_Store
+*.pem
+
+#debuf
+npm-debug.log*
+yarn-debug.log
+yarn-error.log
+
+#local env files
+.env.development
+.env.production
+.env*.local
+
+#vercel
+.vercel
+
+#jetbrains and vscode
+.idea/
+.vscode/
+
+#pwa 
+**/public/workbox-*.js
+**/public/sw.js
+**/public/fallback*-.js
+
+#storybook
+/storybook-static
+/src/stories
+
+#typescript incremental features
+/.tsBuildInfoFile/

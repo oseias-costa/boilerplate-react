@@ -2,5 +2,10 @@
   "name": "study",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Oséias Costa <oseiasc2@gmail.com>",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5"
+  }
 }
